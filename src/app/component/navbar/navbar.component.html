@@ -1,0 +1,20 @@
+<!-- navbar.component.html -->
+<nav class="navbar">
+    <div class="logo">
+      <img src="path/to/logo.png" alt="Logo" />
+      <span>Nombre de la Página</span>
+    </div>
+    <div class="nav-items">
+      <a routerLink="/inicio">Inicio</a>
+      <a routerLink="/preguntas-frecuentes">Preguntas Frecuentes</a>
+      <a routerLink="/nosotros">Nosotros</a>
+    </div>
+    <div class="auth-buttons">
+      <button (click)="iniciarSesion()">Iniciar Sesión</button>
+      <button (click)="registrarse()">Registrarse</button>
+    </div>
+  </nav>
+  <div class="search-bar">
+    <input type="text" placeholder="Buscar..." />
+  </div>
+  
